@@ -1,0 +1,12 @@
+.navbar .navbar-brand {
+  color: rgb(99, 158, 212);
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: rgb(140, 140, 245);
+}
+.navbar-nav .nav-link.active {
+  font-weight: 500;
+  color: rgb(99, 158, 212);
+  border-bottom: 1px solid rgb(99, 158, 212);
+}

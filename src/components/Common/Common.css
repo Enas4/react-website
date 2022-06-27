@@ -1,0 +1,17 @@
+.animated {
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+.btnAnchor {
+  text-decoration: none;
+}
+.btn:hover .btnAnchor {
+  color: white;
+}
